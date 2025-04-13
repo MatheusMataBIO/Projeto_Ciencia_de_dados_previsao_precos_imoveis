@@ -1,3 +1,8 @@
+## Autor
+
+**Matheus Mata**
+Biólogo e Cientista de Dados em transição de carreira com foco em IA, Machine Learning e projetos aplicados.
+
 # 📊 Análise e Previsão de Preços de Aluguéis Temporários
 
 Este projeto de Ciência de Dados tem como objetivo analisar os fatores que influenciam os preços de aluguéis temporários (como os do Airbnb) e prever o valor de novas acomodações com base em dados históricos.
@@ -66,10 +71,15 @@ GradientBoostingRegressor
 
 XGBoostRegressor ✅ (melhor desempenho)
 
-6. Avaliação dos Modelos
+## 6. Avaliação dos Modelos
 
 Modelo	MAE (Val.)	MAE (Teste)	RMSE (Teste)
 
 Random Forest	31.94	32.06	44.97
 Gradient Boosting	32.53	32.88	45.63
 XGBoost	31.80	31.83	44.57 ✅
+
+Métricas: MAE, RMSE
+
+**XGBoost** escolhido pelo melhor desempenho e consistência
+
